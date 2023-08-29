@@ -1,6 +1,16 @@
 const allowedCors = [
+  'http://evgenius.nomoredomainsicu.ru/',
+  'https://evgenius.nomoredomainsicu.ru/',
 
-  'localhost:3000',
+  'http://api.evgenius.nomoredomainsicu.ru/',
+  'https://api.evgenius.nomoredomainsicu.ru/',
+
+  'http://localhost:3000/',
+  'https://localhost:3000/',
+
+  'http://localhost:3001/',
+  'https://localhost:3001/',
+
 ];
 
 module.exports = (req, res, next) => {
