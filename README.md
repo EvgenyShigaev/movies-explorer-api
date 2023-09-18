@@ -8,5 +8,3 @@ http://evgenius.nomoredomainsicu.ru/
 
 Домен для бэкенда дипломного проекта
 http://api.evgenius.nomoredomainsicu.ru/
-
-
