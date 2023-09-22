@@ -62,7 +62,7 @@ const getUsers = (req, res, next) => {
     .orFail(() => {
       throw new NotFoundError('Страница по указанному маршруту не найдена');
     })
-    .then((user) => res.status(200).send({ data: user }))
+    .then((user) => res.status(200).send(user))
 
     .catch((err) => {
       if (err.name === 'CastError') {
